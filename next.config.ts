@@ -8,8 +8,6 @@ const nextConfig: NextConfig = {
     path: "",
   },
   output: 'export',
-  basePath: '/drink-generator',
-  assetPrefix: "/drink-generator/",
 };
 
 export default withFlowbiteReact(nextConfig);
